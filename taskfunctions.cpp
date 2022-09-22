@@ -34,3 +34,25 @@ std::string checkerboard(int width, int height) {
     }
     return lines;
 }
+
+std::string  cross(int size) {
+    std::string lines = "";
+    char linesarray[size][size];
+    for (int row = 0; row < size; row++) {
+        for (int col = 0; col < size; col++) {
+            linesarray[row][col] = ' ';
+        }
+    }
+    for (int row = 0; row < size; row++) {
+        linesarray[row][row] = '*';
+        linesarray[row][size-1-row] = '*';
+    }
+    for (int row = 0; row < size; row++) {
+        for (int col = 0; col < size; col++) {
+            lines += linesarray[row][col];
+        }
+        lines += "\n";
+    }
+
+    return lines;
+}

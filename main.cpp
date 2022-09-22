@@ -2,6 +2,7 @@
 #include "taskfunctions.h"
 
 int main() {
+    /*
     std::cout << "box(3,4):" <<std::endl;
     std::cout << box(3,4) << std::endl;
     std::cout << "\n------------------\n"; 
@@ -69,5 +70,24 @@ int main() {
     std::cout << "checkerboard(1,20)" << std::endl;
     std::cout << checkerboard(1,20) << std::endl;
     std::cout << "\n------------------\n"; 
+    */
+    std::cout << "cross(9)" << std::endl;
+    std::cout << cross(9) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+    std::cout << "cross(8)" << std::endl;
+    std::cout << cross(8) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+    std::cout << "cross(0)" << std::endl;
+    std::cout << cross(0) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+    std::cout << "cross(100)" << std::endl;
+    std::cout << cross(50) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+
+
     return 0;
 }
