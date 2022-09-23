@@ -85,7 +85,6 @@ int main() {
     std::cout << "cross(100)" << std::endl;
     std::cout << cross(50) << std::endl;
     std::cout << "\n------------------\n"; 
-    */
 
     std::cout << "lower(0)" << std::endl;
     std::cout << lower(0) << std::endl;
@@ -102,6 +101,27 @@ int main() {
     std::cout << "lower(101)" << std::endl;
     std::cout << lower(101) << std::endl;
     std::cout << "\n------------------\n"; 
+        */
+    
+    std::cout << "upper(0)" << std::endl;
+    std::cout << upper(0) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "upper(1)" << std::endl;
+    std::cout << upper(1) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "upper(2)" << std::endl;
+    std::cout << upper(2) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "upper(9)" << std::endl;
+    std::cout << upper(9) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "upper(100))" << std::endl;
+    std::cout << upper(100) << std::endl;
+    std::cout << "\n------------------\n";
 
     return 0;
 }

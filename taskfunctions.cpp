@@ -65,3 +65,13 @@ std::string lower(int length) {
    }
    return lines;
 }
+
+std::string upper(int length) {
+    std::string lines = "";
+    for (int row = 0; row <= length; row++) {
+        std::string spaces(row, ' ');
+        std::string  stars(length-row, '*');
+        lines += spaces + stars + "\n";
+    }
+    return lines;
+}
