@@ -2,7 +2,6 @@
 #include "taskfunctions.h"
 
 int main() {
-    /*
     std::cout << "box(3,4):" <<std::endl;
     std::cout << box(3,4) << std::endl;
     std::cout << "\n------------------\n"; 
@@ -144,7 +143,34 @@ int main() {
     std::cout << "trapezoid(7, 101))" << std::endl;
     std::cout << trapezoid(7, 101) << std::endl;
     std::cout << "\n------------------\n";
-    */
+
+    std::cout << "checkerboard3x3(16, 11))" << std::endl;
+    std::cout << checkerboard3x3(16, 11) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(27, 27))" << std::endl;
+    std::cout << checkerboard3x3(27, 27) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(0, 0))" << std::endl;
+    std::cout << checkerboard3x3(0, 0) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(1, 0))" << std::endl;
+    std::cout << checkerboard3x3(1, 0) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(0, 1))" << std::endl;
+    std::cout << checkerboard3x3(0, 1) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(10, 1))" << std::endl;
+    std::cout << checkerboard3x3(10, 1) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "checkerboard3x3(1, 10))" << std::endl;
+    std::cout << checkerboard3x3(1, 10) << std::endl;
+    std::cout << "\n------------------\n";
 
     return 0;
 }

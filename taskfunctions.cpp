@@ -95,3 +95,25 @@ std::string trapezoid(int width, int height) {
 
     return lines;
 }
+
+std::string checkerboard3x3(int width, int height) {
+    std::string lines = "";
+    for (int row = 0; row < height; row++) {
+        for (int col = 0; col < width; col++) {
+            bool rowstartstar = !((row / 3) % 2);
+            bool currentcharstarifrowstarstar =  !((col / 3) % 2);
+            if (rowstartstar && currentcharstarifrowstarstar) {
+                lines += "*";
+            } else if (rowstartstar && !currentcharstarifrowstarstar) {
+                lines += " ";
+            } else if (!rowstartstar && currentcharstarifrowstarstar) {
+                lines += " ";
+            } else {
+                lines += "*";
+            }
+        }
+        lines += "\n";
+    }
+
+    return lines;
+}
