@@ -82,7 +82,7 @@ int main() {
     std::cout << "\n------------------\n"; 
 
     std::cout << "cross(100)" << std::endl;
-    std::cout << cross(50) << std::endl;
+    std::cout << cross(100) << std::endl;
     std::cout << "\n------------------\n"; 
 
     std::cout << "lower(0)" << std::endl;
