@@ -101,7 +101,6 @@ int main() {
     std::cout << "lower(101)" << std::endl;
     std::cout << lower(101) << std::endl;
     std::cout << "\n------------------\n"; 
-        */
     
     std::cout << "upper(0)" << std::endl;
     std::cout << upper(0) << std::endl;
@@ -122,6 +121,30 @@ int main() {
     std::cout << "upper(100))" << std::endl;
     std::cout << upper(100) << std::endl;
     std::cout << "\n------------------\n";
+    std::cout << "trapezoid(12, 7))" << std::endl;
+    std::cout << trapezoid(12, 7) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "trapezoid(12, 6))" << std::endl;
+    std::cout << trapezoid(12, 6) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "trapezoid(0, 0))" << std::endl;
+    std::cout << trapezoid(0, 0) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "trapezoid(1, 1))" << std::endl;
+    std::cout << trapezoid(1, 1) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "trapezoid(101, 7))" << std::endl;
+    std::cout << trapezoid(101, 7) << std::endl;
+    std::cout << "\n------------------\n";
+
+    std::cout << "trapezoid(7, 101))" << std::endl;
+    std::cout << trapezoid(7, 101) << std::endl;
+    std::cout << "\n------------------\n";
+    */
 
     return 0;
 }
