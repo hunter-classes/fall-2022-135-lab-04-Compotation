@@ -56,3 +56,12 @@ std::string  cross(int size) {
 
     return lines;
 }
+
+std::string lower(int length) {
+    std::string lines = "";
+   for (int row = 0; row <= length; row++) {
+        std::string line(row, '*');
+        lines += line + "\n";
+   }
+   return lines;
+}

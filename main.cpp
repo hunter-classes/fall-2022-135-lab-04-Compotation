@@ -70,7 +70,6 @@ int main() {
     std::cout << "checkerboard(1,20)" << std::endl;
     std::cout << checkerboard(1,20) << std::endl;
     std::cout << "\n------------------\n"; 
-    */
     std::cout << "cross(9)" << std::endl;
     std::cout << cross(9) << std::endl;
     std::cout << "\n------------------\n"; 
@@ -86,8 +85,23 @@ int main() {
     std::cout << "cross(100)" << std::endl;
     std::cout << cross(50) << std::endl;
     std::cout << "\n------------------\n"; 
+    */
 
+    std::cout << "lower(0)" << std::endl;
+    std::cout << lower(0) << std::endl;
+    std::cout << "\n------------------\n"; 
 
+    std::cout << "lower(1)" << std::endl;
+    std::cout << lower(1) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+    std::cout << "lower(10)" << std::endl;
+    std::cout << lower(10) << std::endl;
+    std::cout << "\n------------------\n"; 
+
+    std::cout << "lower(101)" << std::endl;
+    std::cout << lower(101) << std::endl;
+    std::cout << "\n------------------\n"; 
 
     return 0;
 }
